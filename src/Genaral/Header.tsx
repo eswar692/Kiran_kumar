@@ -53,13 +53,16 @@ const Logo = () => (
         <p className="open-sans text-sm md:text-base text-gray-300 italic -mt-1">
           Since 1950
         </p>
-        <p className="open-sans text-xs md:text-sm text-gray-400 mt-1 poppins max-w-[300px] leading-snug">
-          Best astrology services for{" "}
-          <span className="text-purple-400 font-semibold">accurate</span> and{" "}
-          <span className="text-pink-400 font-semibold">
-            personalized guidance
-          </span>
-        </p>
+        <div className="text-white open-sans">
+          <b>Contact Us</b>
+          <div>
+            03 ,jyothirdevi ,chottanikkara, 03, bhagavathi Kaanda Street
+            <br />
+            chottanikkara, Ernakulam, Kerala 682312
+            <br />
+            Phone: {phone_number} | WhatsApp: {whatsapp_number}
+          </div>
+        </div>
       </div>
     </div>
 
@@ -144,7 +147,7 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => {
                 {item}
               </li>
             </Link>
-          )
+          ),
         )}
       </ul>
 

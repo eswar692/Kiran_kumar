@@ -59,6 +59,16 @@ export default function Footer() {
           <h2 className="font-bold text-2xl montserrat text-yellow-400 tracking-wide">
             Contact Us
           </h2>
+          <div className="text-white open-sans">
+            <b>Contact Us</b>
+            <div>
+              03 ,jyothirdevi ,chottanikkara, 03, bhagavathi Kaanda Street
+              <br />
+              chottanikkara, Ernakulam, Kerala 682312
+              <br />
+              Phone: {phone_number} | WhatsApp: {whatsapp_number}
+            </div>
+          </div>
           <p className="flex items-center gap-2 text-gray-200">
             <Phone className="w-5 h-5 text-pink-400" />
             {phone_number}

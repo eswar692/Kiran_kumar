@@ -37,6 +37,18 @@ export default function Contact() {
             spiritual guidance is here to help.
           </p>
 
+          <div className="text-gray-800 open-sans">
+            <b>Contact Us</b>
+            <div>
+              03 ,jyothirdevi ,chottanikkara, 03, bhagavathi Kaanda Street
+              <br />
+              chottanikkara, Ernakulam, Kerala 682312
+              <br />
+              Phone: {phone_number} | WhatsApp: {whatsapp_number}
+            </div>
+          </div>
+          <br />
+
           <div className="space-y-5 text-lg text-gray-800">
             <p className="flex items-center gap-3">
               <Mail className="w-6 h-6 text-pink-600" />

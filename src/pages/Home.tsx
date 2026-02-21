@@ -50,11 +50,7 @@ const Problems = () => {
       desc: "Solve disputes and misunderstandings with astrology guidance.",
       img: "https://i.pinimg.com/1200x/c1/2b/fc/c12bfc17ac4630ade4f0e1e4a1f819e2.jpg",
     },
-    {
-      title: "Vashikaran Specialist",
-      desc: "Attract your desired partner with trusted vashikaran solutions.",
-      img: "https://i.pinimg.com/736x/05/d1/71/05d171d8361a2e85d98faafd5df9020e.jpg",
-    },
+
     {
       title: "Education Remedies",
       desc: "Personalized astrological remedies and puja to improve concentration, memory and academic success. Suitable for students preparing for exams, entrance tests, or academic growth.",
@@ -76,12 +72,12 @@ const Problems = () => {
       img: "https://i.pinimg.com/1200x/30/05/93/300593ddfebda3597cfb52632ce93e4e.jpg",
     },
     {
-      title: "Samboga Vashikaran (Relationship Attraction)",
+      title: "Love & Relationship Harmony",
       desc: "Specialized vashikaran remedies aimed at rekindling attraction and emotional closeness. Provided carefully with ethical guidance and clear expectations.",
       img: "https://i.pinimg.com/736x/0b/b7/91/0bb7917954d720df78a4f71c085c46ff.jpg",
     },
     {
-      title: "Family Vashikaran & Harmony",
+      title: "Family Dispute Resolution",
       desc: "Remedies and rituals to ease family disputes, restore trust and harmony in household relationships while respecting everyone's wellbeing and consent.",
       img: "https://i.pinimg.com/736x/ad/7b/99/ad7b9936b889c3abaafe22c732867d86.jpg",
     },

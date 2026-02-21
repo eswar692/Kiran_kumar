@@ -1,10 +1,10 @@
-const phone_number = "9380595645";
+const phone_number = "7601024668";
 const email = "";
-const whatsapp_number = "919380595645";
-const company_name = "Devi Sri Prasad Astro Center";
-const person_name = "Devi Sri Prasad";
+const whatsapp_number = "7601024668";
+const company_name = "Devi Sri Prasad Astro";
+const person_name = "Devi Sri Prasad Astro";
 const address = "";
-const website_url = "https://www.devisriprasadastro.com";
+const website_url = "https://www.devisriprasadastro.in";
 
 export {
   phone_number,
