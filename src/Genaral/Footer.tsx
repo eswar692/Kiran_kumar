@@ -147,7 +147,7 @@ const CopyRightAndContact = () => {
           </a>
         </div>
 
-        {/* Center — Credit */}
+        {/* Center — Credit
         <div className="text-center flex flex-col md:flex-row gap-3 items-center">
           <p className="font-montserrat text-sm text-pink-200 font-semibold">
             Designed with by
@@ -164,7 +164,7 @@ const CopyRightAndContact = () => {
               Eswar — Binary Icon Tech
             </button>
           </a>
-        </div>
+        </div> */}
 
         {/* Right — Copyright */}
         <div className="text-center md:text-right text-sm text-pink-100 font-medium">
