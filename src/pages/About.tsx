@@ -10,30 +10,34 @@ export default function About() {
         <p className="text-gray-800 text-lg md:text-xl leading-relaxed space-y-4">
           Astrologer{" "}
           <span className="font-bold text-indigo-700">{person_name}</span> is a
-          renowned and respected spiritual leader in India. With his deep
-          knowledge of astrology and unwavering commitment to helping others, he
-          has established himself as a trusted advisor to people across the
-          country.
+          trusted and experienced astrology consultant based in Kerala, India.
+          With deep knowledge of Vedic astrology and a sincere commitment to
+          helping others, he has established himself as a reliable advisor to
+          clients across the country.
           <br />
           <br />
-          Through his extensive experience and intuitive abilities, Astrologer{" "}
+          Through years of experience and dedicated practice, Astrologer{" "}
           <span className="font-semibold text-violet-700">
             {person_name}
           </span>{" "}
-          offers a wide range of services including palm readings, face
-          readings, photo readings, and phone consultations. His expertise spans
-          astrology, spiritual guidance, and personal development, making him a
-          versatile and influential figure in the spiritual community.
+          offers a wide range of consultation services including palm readings,
+          face readings, photo readings, and phone consultations. His expertise
+          spans astrology, horoscope analysis, and personal life guidance —
+          making him a versatile and knowledgeable consultant.
           <br />
           <br />
           Known for his{" "}
-          <span className="font-semibold text-indigo-600">accuracy</span> and
-          insightful interpretations, Astrologer Panikaran Guruji has built a
-          loyal following of clients who attest to the transformative power of
-          his readings.
+          <span className="font-semibold text-indigo-600">
+            thoughtful and personalized approach
+          </span>
+          , Astrologer{" "}
+          <span className="font-semibold text-violet-700">{person_name}</span>{" "}
+          has built a loyal following of clients who value the clarity and
+          direction his consultations provide.
           <br />
           <br />
-          If you’re in need of a trusted spiritual guide, look no further.
+          If you are seeking a trusted astrology consultant for guidance on
+          life, love, career, or family — we are here to help.
         </p>
       </div>
     </section>

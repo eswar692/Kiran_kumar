@@ -6,33 +6,33 @@ import { phone_number, whatsapp_number } from "./secrete";
 
 const cards = [
   {
-    title: "Get Your Love Back",
-    desc: "Reunite with your lost love and restore happiness with divine remedies. Remove negativity, heal misunderstandings, and rebuild trust for a blissful love life.",
+    title: "Relationship Guidance",
+    desc: "Consult our experienced astrologer for clarity on relationship challenges. Gain insights to rebuild understanding, trust, and harmony in your personal life.",
     img: "https://i.pinimg.com/736x/9e/62/89/9e6289902fb93c22b7245c4a72ab355d.jpg",
   },
   {
-    title: "Psychic Reading",
-    desc: "Get accurate psychic insights about love, career, health & finances. Prepare for success, overcome obstacles, and make confident decisions with clarity.",
+    title: "Astrology Consultation",
+    desc: "Get personalized astrology insights about love, career, health and finances. Make confident life decisions with clarity and guidance from an experienced advisor.",
     img: "https://i.pinimg.com/736x/d1/7b/6e/d17b6e6bbe4cb76812aea53029b0182d.jpg",
   },
   {
-    title: "Business Problem",
-    desc: "Boost your business growth, overcome financial hurdles, and attract prosperity with spiritual astrology solutions. Ensure steady success & stability.",
+    title: "Business Advisory",
+    desc: "Astrology-based consultation for business direction, financial planning and career stability. Gain clarity and confidence for steady professional growth.",
     img: "https://i.pinimg.com/736x/84/dd/e6/84dde6e4a1641f19a2f53577ec4b9f4c.jpg",
   },
   {
-    title: "Get Your Love Back",
-    desc: "Reunite with your lost love and restore happiness with divine remedies. Remove negativity, heal misunderstandings, and rebuild trust for a blissful love life.",
+    title: "Marriage Guidance",
+    desc: "Astrology consultation for marital harmony, compatibility understanding and family balance. Thoughtful guidance for important life and relationship decisions.",
     img: "https://i.pinimg.com/736x/9e/62/89/9e6289902fb93c22b7245c4a72ab355d.jpg",
   },
   {
-    title: "Psychic Reading",
-    desc: "Get accurate psychic insights about love, career, health & finances. Prepare for success, overcome obstacles, and make confident decisions with clarity.",
+    title: "Career Direction",
+    desc: "Get astrology-based insights for career planning, job decisions and professional growth. Clarity and confidence for your next important career move.",
     img: "https://i.pinimg.com/736x/d1/7b/6e/d17b6e6bbe4cb76812aea53029b0182d.jpg",
   },
   {
-    title: "Business Problem",
-    desc: "Boost your business growth, overcome financial hurdles, and attract prosperity with spiritual astrology solutions. Ensure steady success & stability.",
+    title: "Family Harmony",
+    desc: "Supportive astrology consultation to resolve family misunderstandings and restore lasting peace. Guidance for balanced and positive family relationships.",
     img: "https://i.pinimg.com/736x/84/dd/e6/84dde6e4a1641f19a2f53577ec4b9f4c.jpg",
   },
 ];
@@ -40,11 +40,11 @@ const cards = [
 const CardCarousel = () => {
   const [emblaRef] = useEmblaCarousel(
     { loop: true, align: "start", skipSnaps: false },
-    [Autoplay({ delay: 4000, stopOnInteraction: false })]
+    [Autoplay({ delay: 4000, stopOnInteraction: false })],
   );
 
   return (
-    <section className="relative w-full max-w-7xl mx-auto py-16 px-4 overflow-hidden bg-gradient-to-br from-yellow-50 via-orange-100 to-red-50">
+    <section className="relative w-full max-w-7xl mx-auto py-16 px-4 overflow-hidden ">
       {/* Floating Background Glows */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-10 left-10 w-32 h-32 bg-yellow-300/10 rounded-full blur-3xl animate-pulse"></div>

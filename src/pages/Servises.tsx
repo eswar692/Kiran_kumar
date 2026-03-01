@@ -3,39 +3,38 @@ import { phone_number, whatsapp_number } from "../Genaral/secrete";
 
 const services = [
   {
-    name: "Love Problems",
-    desc: "Solutions for lost love, misunderstandings, and building strong relationships.",
+    name: "Relationship Guidance",
+    desc: "Confidential astrology consultations to help you understand relationship dynamics and improve communication.",
     img: "https://i.pinimg.com/1200x/3f/f5/89/3ff5895bca8970847577656ffe788eff.jpg",
   },
   {
-    name: "Marriage Issues",
-    desc: "Guidance for happy married life, compatibility, and resolving conflicts.",
+    name: "Marriage Consultation",
+    desc: "Personalized horoscope-based insights to support harmony, compatibility, and mutual understanding.",
     img: "https://i.pinimg.com/736x/fa/ee/46/faee46287149c9a2470c20d26318fee1.jpg",
   },
   {
-    name: "Court Cases",
-    desc: "Astrological remedies to overcome legal challenges and disputes.",
+    name: "Legal Situation Guidance",
+    desc: "Spiritual guidance and astrological perspectives during challenging legal or personal matters.",
     img: "https://i.pinimg.com/1200x/fb/4e/36/fb4e36b171a92fb4d391f3bc6a90e8a5.jpg",
   },
   {
-    name: "Finance Problems",
-    desc: "Effective remedies for wealth, investments, and financial stability.",
+    name: "Financial Planning Insights",
+    desc: "Astrology-based insights to help you reflect on financial decisions and long-term stability.",
     img: "https://i.pinimg.com/736x/53/3a/25/533a25d0fd940cc5fc8b5fdaf457b14a.jpg",
   },
   {
-    name: "Education Guidance",
-    desc: "Astrology support for students seeking focus, success, and higher studies.",
+    name: "Student & Education Support",
+    desc: "Guidance sessions focused on motivation, clarity, and academic direction.",
     img: "https://i.pinimg.com/736x/7f/8a/60/7f8a6099a523cc79342eaee0a29e92f8.jpg",
   },
   {
-    name: "Career Growth",
-    desc: "Clarity for job opportunities, promotions, and professional success.",
+    name: "Career Consultation",
+    desc: "Astrological insights to help you explore career paths and professional growth opportunities.",
     img: "https://i.pinimg.com/736x/2d/21/ff/2d21ff0997bd7bdfb46491c3d13798c3.jpg",
   },
-
   {
-    name: "Future Predictions",
-    desc: "Accurate horoscope readings to understand your destiny and future.",
+    name: "Horoscope Reading",
+    desc: "Personalized horoscope readings offering general insights about life patterns and possibilities.",
     img: "https://i.pinimg.com/1200x/40/6d/94/406d941b9978384bd9008b1f81c613a3.jpg",
   },
 ];

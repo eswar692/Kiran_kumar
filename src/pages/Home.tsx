@@ -41,44 +41,43 @@ export default Home;
 const Problems = () => {
   const problems = [
     {
-      title: "Lost Love Back",
-      desc: "Available on both WhatsApp and Call. One call can change your life.",
-      img: "https://i.pinimg.com/736x/4a/c8/aa/4ac8aaa977a4eef9bb1eac0041929380.jpg", // replace with your image
+      title: "Relationship Clarity Guidance",
+      desc: "Available on WhatsApp and call. Speak directly with our astrologer for personalized guidance on relationship challenges and emotional clarity.",
+      img: "https://i.pinimg.com/736x/4a/c8/aa/4ac8aaa977a4eef9bb1eac0041929380.jpg",
     },
     {
       title: "Marriage Problem Solution",
-      desc: "Solve disputes and misunderstandings with astrology guidance.",
+      desc: "Solve disputes and misunderstandings with trusted astrology consultation. Guidance for marital harmony and family balance.",
       img: "https://i.pinimg.com/1200x/c1/2b/fc/c12bfc17ac4630ade4f0e1e4a1f819e2.jpg",
     },
-
     {
-      title: "Education Remedies",
-      desc: "Personalized astrological remedies and puja to improve concentration, memory and academic success. Suitable for students preparing for exams, entrance tests, or academic growth.",
+      title: "Education Guidance",
+      desc: "Personalized astrology consultation to support students in academic planning and decision making. Suitable for exam preparation and career direction.",
       img: "https://i.pinimg.com/736x/73/49/66/73496669119b34a1dd1ab91ffd626f68.jpg",
     },
     {
-      title: "Vastu Pooja & Home Harmony",
-      desc: "Vastu analysis and corrective poojas to balance energy at home or workplace — remove blockages, enhance prosperity, and bring peace to the living space.",
+      title: "Vastu & Home Harmony",
+      desc: "Vastu-based consultation to support positive energy flow at home and workplace. Traditional guidance for a balanced and peaceful living space.",
       img: "https://i.pinimg.com/1200x/22/7a/73/227a73ecafa7e4bc8f6b256083a0e7c2.jpg",
     },
     {
       title: "Career & Job Guidance",
-      desc: "Astrological career mapping, timely remedies and rituals to unlock career opportunities, interview luck, job changes and business growth.",
+      desc: "Astrology-based career consultation for job decisions, professional growth and business direction. Clarity and confidence for your next career move.",
       img: "https://i.pinimg.com/736x/1e/a3/1c/1ea31c29817c2b9435c0e29040497a47.jpg",
     },
     {
       title: "Health & Wellbeing Support",
-      desc: "Holistic horoscope-based suggestions and gentle remedial poojas to support physical and mental wellbeing. Not a substitute for medical care — recommended alongside professional treatment.",
+      desc: "Horoscope-based wellness consultation for physical and mental clarity. Offered as complementary guidance alongside professional medical care.",
       img: "https://i.pinimg.com/1200x/30/05/93/300593ddfebda3597cfb52632ce93e4e.jpg",
     },
     {
       title: "Love & Relationship Harmony",
-      desc: "Specialized vashikaran remedies aimed at rekindling attraction and emotional closeness. Provided carefully with ethical guidance and clear expectations.",
-      img: "https://i.pinimg.com/736x/0b/b7/91/0bb7917954d720df78a4f71c085c46ff.jpg",
+      desc: "Astrology consultation focused on emotional understanding and relationship clarity. Personalized guidance to restore trust and harmony between partners.",
+      img: "https://i.pinimg.com/736x/8b/6e/e7/8b6ee78a6bcd242f1b916c5b5cf44025.jpg",
     },
     {
       title: "Family Dispute Resolution",
-      desc: "Remedies and rituals to ease family disputes, restore trust and harmony in household relationships while respecting everyone's wellbeing and consent.",
+      desc: "Astrology-based consultation to ease family misunderstandings and restore harmony in household relationships. Respectful and confidential guidance.",
       img: "https://i.pinimg.com/736x/ad/7b/99/ad7b9936b889c3abaafe22c732867d86.jpg",
     },
   ];
@@ -166,22 +165,20 @@ const AboutAstrologer = () => {
           <p className="text-gray-800 leading-relaxed text-lg md:text-xl open-sans">
             Meet{" "}
             <span className="font-bold text-purple-600">{company_name}</span>, a
-            globally renowned astrologer whose wisdom in astrology is inherited
-            through generations. His expertise has guided countless individuals
-            toward{" "}
+            trusted astrologer whose knowledge in astrology is inherited through
+            generations. His experience has guided countless individuals toward{" "}
             <span className="font-semibold text-indigo-600">
-              peace, clarity, and success
+              peace, clarity, and confidence
             </span>
             .
           </p>
 
           <p className="text-gray-700 leading-relaxed text-lg md:text-xl">
-            With personalized solutions, accurate predictions, and deep
-            understanding of life’s challenges, {company_name} continues to
-            attract a global clientele seeking both spiritual and practical
-            guidance.
+            With personalized consultations, thoughtful guidance, and deep
+            understanding of life's challenges, {company_name} continues to
+            support a global clientele seeking clarity and direction in love,
+            marriage, career, and family.
           </p>
-
           {/* Call to Action */}
           <div className="mt-6 flex flex-wrap gap-4 justify-center md:justify-start">
             <a
@@ -205,9 +202,9 @@ const AboutAstrologer = () => {
         <div className="flex justify-center relative">
           <div className="relative w-full max-w-md">
             <img
-              src="https://i.pinimg.com/1200x/2b/7e/f6/2b7ef69aef08f4f9ec85e1f37984332a.jpg"
+              src="https://i.pinimg.com/736x/00/a3/73/00a373f84f5bb7778ab002feff728718.jpg"
               alt="Astrologer Banner"
-              className="w-full h-[420px] rounded-3xl object-cover shadow-2xl transform hover:scale-105 transition-transform duration-500"
+              className="w-full h-[420px] rounded-3xl object-cover object-top shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />
             {/* Neon Glow */}
             <div className="absolute -bottom-6 -right-6 w-24 h-24 bg-purple-300/40 blur-3xl rounded-full animate-pulse"></div>
@@ -223,46 +220,43 @@ const AstrologyServices = () => {
   const services = [
     {
       title: "Breakup Problem",
-      desc: "Breakup problems are common, but astrology provides remedies to heal emotional pain and restore love in relationships.",
+      desc: "Astrology consultation to gain clarity after a breakup. Thoughtful guidance to understand emotions and make confident decisions about relationships.",
       img: "https://i.pinimg.com/1200x/56/23/3a/56233a0caad6ac1136c682118ca138f8.jpg",
     },
     {
       title: "Gf/Bf Dispute",
-      desc: "Astrological remedies help smoothen conflicts and bring balance in relationships with your partner.",
+      desc: "Astrology-based consultation to understand relationship conflicts and improve communication between partners for better harmony.",
       img: "https://i.pinimg.com/736x/da/1e/de/da1ede4ba8faa752488419d5a2802fd7.jpg",
     },
     {
       title: "Love Problem",
-      desc: "Astrology provides a better path to resolve love issues and bring harmony and trust between partners.",
+      desc: "Astrology guidance to bring clarity on love-related challenges and support better understanding and trust between partners.",
       img: "https://i.pinimg.com/736x/bc/49/b6/bc49b6e04d96e9d687ea1740e4cc93ed.jpg",
     },
     {
       title: "Family Problem",
-      desc: "Get rid of family disputes with astrological guidance that promotes peace, harmony, and positivity at home.",
+      desc: "Astrology consultation to support family harmony and peaceful resolution of misunderstandings at home.",
       img: "https://i.pinimg.com/736x/e7/b3/63/e7b36387a8c950dbb340455e0fdbdb1e.jpg",
     },
   ];
 
   return (
     <section className="relative py-20 bg-gradient-to-b from-purple-900 via-indigo-900 to-black overflow-hidden">
-      {/* Decorative Background Aura */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-pink-500/30 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-yellow-400/20 rounded-full blur-3xl animate-pulse"></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
-        {/* Title */}
+        {/* ✅ Fixed Title */}
         <h2 className="text-3xl md:text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-yellow-300 to-red-400 drop-shadow-lg montserrat mb-14">
-          🌟 Our Premium Astrology Services 🌟
+          Our Astrology Services
         </h2>
 
-        {/* Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {services.map((service, idx) => (
             <div
               key={idx}
               className="group relative bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl overflow-hidden shadow-lg hover:shadow-pink-500/40 hover:scale-[1.03] transition-all duration-500"
             >
-              {/* Image */}
               <div className="relative overflow-hidden">
                 <img
                   src={service.img}
@@ -272,7 +266,6 @@ const AstrologyServices = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
               </div>
 
-              {/* Content */}
               <div className="p-6 space-y-4 text-center">
                 <h3 className="text-xl font-bold text-yellow-300 montserrat drop-shadow-md">
                   {service.title}
@@ -280,8 +273,6 @@ const AstrologyServices = () => {
                 <p className="text-gray-200 text-sm leading-relaxed open-sans">
                   {service.desc}
                 </p>
-
-                {/* Call Button */}
                 <a href={`tel:${phone_number}`}>
                   <button className="w-full flex items-center justify-center gap-2 py-3 px-6 rounded-full bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 text-white font-semibold shadow-lg hover:shadow-pink-500/50 hover:scale-105 transition-all duration-300 montserrat">
                     <Phone className="w-5 h-5" /> Call Us Now
@@ -307,7 +298,8 @@ const AstrologyServicesModern = () => {
       img: "https://i.pinimg.com/736x/f5/b2/00/f5b200772b619765261b2a50b595ae72.jpg",
     },
     {
-      title: "Ex Love Back Expert",
+      // ✅ FIXED
+      title: "Relationship Reconciliation",
       img: "https://i.pinimg.com/1200x/2f/5b/b3/2f5bb3dde2c5891188f1170b5d12260f.jpg",
     },
     {
@@ -375,34 +367,34 @@ const AstrologyServicesModern = () => {
 const AllServicesModern = () => {
   const services = [
     {
-      title: "Ex Love Back",
+      title: "Relationship Guidance",
       icon: Heart,
-      desc: "Astrological remedies to bring your ex back with love & trust.",
+      desc: "Astrology consultation for relationship clarity, emotional understanding and rebuilding trust between partners.",
     },
     {
-      title: "Court Case Solution",
+      title: "Court Case Consultation",
       icon: Scale,
-      desc: "Effective solutions for legal & court-related issues.",
+      desc: "Astrology-based guidance for patience, mental clarity and confidence during legal and court-related situations.",
     },
     {
-      title: "Family Problem",
+      title: "Family Harmony",
       icon: Users,
-      desc: "Resolve disputes & bring peace at home with astrology.",
+      desc: "Astrology consultation to support peaceful resolution of family misunderstandings and restore home harmony.",
     },
     {
-      title: "Business Problem",
+      title: "Business Advisory",
       icon: Briefcase,
-      desc: "Boost your career & business success with remedies.",
+      desc: "Astrology-based consultation for career direction, business planning and professional stability.",
     },
     {
-      title: "Childless Couple",
+      title: "Couples Consultation",
       icon: Users,
-      desc: "Astrological remedies to bless couples with children.",
+      desc: "Supportive astrology guidance for couples seeking clarity on family planning and life decisions.",
     },
     {
-      title: "Thantra Pooja",
+      title: "Puja  Consultation",
       icon: Sparkles,
-      desc: "Personalized astrology & pujas for spiritual growth, meditation & karma solutions.",
+      desc: "Personalized Vedic puja and mantra-based consultations rooted in traditional spiritual practice.",
     },
   ];
 
@@ -472,7 +464,6 @@ const AllServicesModern = () => {
 function HomeLastDesign() {
   return (
     <section className="mt-2 mb-2 relative bg-gradient-to-br from-purple-900 via-indigo-900 to-black py-20 px-6 overflow-hidden">
-      {/* Stars background overlay */}
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/stardust.png')] opacity-20"></div>
 
       <div className="relative max-w-7xl mx-auto grid md:grid-cols-2 gap-14 items-center">
@@ -490,7 +481,6 @@ function HomeLastDesign() {
               alt={person_name}
               className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
             />
-            {/* Glow ring */}
             <div className="absolute inset-0 rounded-full border-4 border-pink-400/40 animate-spin-slow"></div>
           </div>
         </motion.div>
@@ -502,24 +492,29 @@ function HomeLastDesign() {
           transition={{ duration: 0.8 }}
           className="space-y-6 text-center md:text-left"
         >
+          {/* ✅ Fixed H2 — Sparkles icon removed */}
           <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-yellow-300 via-pink-400 to-red-500 bg-clip-text text-transparent drop-shadow-lg montserrat">
-            <Sparkles className="inline w-8 h-8 text-yellow-300 animate-pulse mr-2" />
             Astrologer {person_name}
           </h2>
+
+          {/* ✅ Fixed H3 */}
           <h3 className="text-lg md:text-2xl font-semibold text-gray-200 montserrat">
-            🌌 India’s Most Trusted Astrology Expert
+            Trusted Astrology Consultant — Since 1950
           </h3>
+
+          {/* ✅ Fixed Paragraph */}
           <p className="text-gray-300 leading-relaxed text-base open-sans">
-            With profound knowledge in{" "}
+            With deep knowledge in{" "}
             <span className="text-yellow-400">Vastu</span>,{" "}
             <span className="text-pink-400">horoscope reading</span>, and{" "}
-            <span className="text-purple-300">spiritual guidance</span>,{" "}
-            {person_name}
-            Ji empowers individuals to overcome obstacles and discover their
-            true destiny.
+            <span className="text-purple-300">
+              Vedic astrology consultation
+            </span>
+            , {person_name} Ji guides individuals toward clarity, confidence,
+            and better life decisions.
           </p>
 
-          {/* Contact Section */}
+          {/* CTA Buttons */}
           <div className="flex flex-wrap gap-4 justify-center md:justify-start pt-3">
             <a
               href={`tel:${phone_number}`}
@@ -527,7 +522,6 @@ function HomeLastDesign() {
             >
               <Phone size={20} /> Call Now
             </a>
-
             <a
               href={`https://wa.me/${whatsapp_number}`}
               target="_blank"
@@ -538,9 +532,10 @@ function HomeLastDesign() {
             </a>
           </div>
 
-          {/* Special Note */}
+          {/* ✅ Fixed Special Note */}
           <p className="mt-5 text-yellow-300 font-bold tracking-wide text-sm md:text-base poppins">
-            Accurate Predictions | Trusted Guidance | Life-changing Remedies ✨
+            Personalized Guidance | Confidential Consultation | Trusted Since
+            1950
           </p>
         </motion.div>
       </div>

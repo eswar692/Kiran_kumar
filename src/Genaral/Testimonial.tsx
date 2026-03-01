@@ -9,26 +9,26 @@ const testimonials = [
     name: "Arjun Verma",
     location: "Mumbai",
     image: "https://astrologerdeepaksharma.in/images/client-2.png",
-    text: `${person_name} Ji gave me advice on business-related issues. I sought his advice when I was in the midst of a significant loss; his remedies are effective and yield results quickly.`,
+    text: `${person_name} Ji gave me thoughtful advice on business-related challenges. I consulted him during a difficult period and found his guidance very clear, calm and helpful.`,
   },
   {
     name: "Mala Kapoor",
     location: "Goa",
     image: "https://astrologerdeepaksharma.in/images/client-1.png",
-    text: `I'm appreciative of Pandith ${person_name}. For me, his prophecies come true. The fact that he is constantly there to lead me makes me feel lucky. It was great for me.`,
+    text: `I am grateful to Pandith ${person_name} Ji for his patient and insightful consultation. His guidance helped me gain clarity and confidence during a very uncertain time in my life.`,
   },
   {
     name: "Pratha Kumari",
     location: "Delhi",
     image: "https://astrologerdeepaksharma.in/images/client-2.png",
-    text: "My kids abruptly stopped paying attention to me. I sought his advice when I started to feel concerned. He offered solutions that improved my kids’ behavior and brought peace at home.",
+    text: "I was going through a difficult family situation and reached out for consultation. The guidance I received helped me approach the situation more calmly and brought peace at home.",
   },
 ];
 
 export default function Testimonials() {
   const [emblaRef] = useEmblaCarousel(
     { loop: true, align: "start", dragFree: true },
-    [Autoplay({ delay: 3500 })]
+    [Autoplay({ delay: 3500 })],
   );
 
   return (
@@ -39,7 +39,7 @@ export default function Testimonials() {
       <div className="relative max-w-7xl mx-auto text-center">
         {/* Heading */}
         <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-red-600 via-pink-600 to-orange-500 bg-clip-text text-transparent drop-shadow-lg">
-          ✨ What Our Clients Say ✨
+          What Our Clients Say
         </h2>
         <p className="mt-4 text-gray-700 text-lg max-w-2xl mx-auto">
           Real experiences from people who found solutions with{" "}

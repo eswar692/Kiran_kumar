@@ -12,20 +12,20 @@ const VideoView = () => {
         className="w-full h-full object-cover"
       />
 
-      {/* Optional Neon Sparkles Overlay */}
-      <div className="absolute top-0 left-0 bottom-0 right-0 bg-black/60  w-full h-full">
-        ff
-      </div>
+      {/* Overlay — ff removed ✅ */}
+      <div className="absolute top-0 left-0 bottom-0 right-0 bg-black/60 w-full h-full" />
 
-      {/* Text & Buttons Overlay */}
+      {/* Text & Buttons */}
       <div className="bg-red-900/20 z-99 absolute inset-0 flex flex-col justify-center items-center text-center px-6">
         <h1 className="text-3xl md:text-5xl font-extrabold text-white drop-shadow-lg montserrat">
           Devi Sri Prasad Astro
         </h1>
+
+        {/* ✅ Fixed description */}
         <p className="mt-4 text-white text-sm md:text-lg open-sans leading-snug max-w-xs md:max-w-lg">
-          Renowned astrologer providing personalized astrology services for
-          accurate guidance, spiritual growth, and life solutions. Trusted
-          worldwide.
+          Renowned astrologer providing personalized astrology consultation for
+          accurate guidance, clarity, and confidence in life decisions. Trusted
+          by clients worldwide.
         </p>
 
         <div className="mt-6 flex sm:flex-row gap-4 flex-row">

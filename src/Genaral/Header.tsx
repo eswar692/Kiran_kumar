@@ -6,7 +6,7 @@ import { company_name, phone_number, whatsapp_number } from "./secrete";
 const Header = () => {
   return (
     <header className="w-full bg-gray-900">
-      <div className="w-full md:w-[85%] mx-auto flex flex-col gap-6   ">
+      <div className="w-full md:w-[85%] mx-auto flex flex-col gap-6">
         <Logo />
       </div>
     </header>
@@ -15,39 +15,11 @@ const Header = () => {
 
 export default Header;
 
-// const Title = () => (
-//   <div className="flex flex-row w-full md:flex-row items-center justify-between gap-4">
-//     <h5 className="montserrat font-semibold text-gray-200 text-center md:text-left text-sm md:text-base">
-//       ✨ Any Problem? Connect with us
-//     </h5>
-//     <a
-//       href={`tel://${phone_number}`}
-//       className="px-6 py-2 bg-gradient-to-r from-yellow-400 to-yellow-600 hover:from-yellow-500 hover:to-yellow-700 text-white font-semibold rounded-full shadow-xl transition-transform duration-300 hover:scale-105 montserrat text-sm"
-//     >
-//       Call Now
-//     </a>
-//   </div>
-// );
-
 const Logo = () => (
-  <div className="relative w-full flex flex-row md:flex-row items-center justify-between gap-0 md:gap-2 bg-gray-900 p-1 py-3 md:p-6 ">
-    {/* Logo + Text */}
-    <div className=" w-[85%] flex items-center gap-1 md:gap-8">
-      {/*
-      <div className=" w-20 h-20 md:w-24 md:h-24 rounded-2xl overflow-hidden shadow-2xl ">
-        <video
-          src="fb9b120cb8608fc1fa9e08379ead50b1_720w.mp4" // your video path
-          autoPlay
-          loop
-          muted
-          className="border-2 border-purple-500 absolute w-[90px] h-[80px] object-cover rounded-xl transform hover:scale-105 transition-transform duration-500"
-        />
-
-      </div>
-       */}
-
-      <div className="flex flex-col text-center md:text-left ">
-        <h1 className="px-2 montserrat font-extrabold text-2xl md:text-3xl text-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 drop-shadow-lg text-white">
+  <div className="relative w-full flex flex-row md:flex-row items-center justify-between gap-0 md:gap-2 bg-gray-900 p-1 py-3 md:p-6">
+    <div className="w-[85%] flex items-center gap-1 md:gap-8">
+      <div className="flex flex-col text-center md:text-left">
+        <h1 className="px-2 montserrat font-extrabold text-2xl md:text-3xl drop-shadow-lg text-white">
           {company_name}
         </h1>
         <p className="open-sans text-sm md:text-base text-gray-300 italic -mt-1">
@@ -56,9 +28,9 @@ const Logo = () => (
         <div className="text-white open-sans">
           <b>Contact Us</b>
           <div>
-            03 ,jyothirdevi ,chottanikkara, 03, bhagavathi Kaanda Street
+            03, Jyothirdevi, Chottanikkara, Bhagavathi Kaanda Street
             <br />
-            chottanikkara, Ernakulam, Kerala 682312
+            Chottanikkara, Ernakulam, Kerala 682312
             <br />
             Phone: {phone_number} | WhatsApp: {whatsapp_number}
           </div>
@@ -66,7 +38,6 @@ const Logo = () => (
       </div>
     </div>
 
-    {/* Menu */}
     <div className="w-[15%] flex justify-center items-center mt-4 md:mt-0">
       <Menu />
     </div>
@@ -77,7 +48,6 @@ const Menu = () => {
   const [open, setOpen] = useState(false);
   return (
     <div>
-      {/* Desktop menu */}
       <ul className="hidden lg:flex gap-8 font-medium text-gray-100 montserrat text-lg">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About</NavLink>
@@ -85,7 +55,6 @@ const Menu = () => {
         <NavLink to="/contact">Contact</NavLink>
       </ul>
 
-      {/* Mobile menu button */}
       <button
         className="lg:hidden p-2 border rounded bg-orange-500 transition duration-300"
         onClick={() => setOpen(!open)}
@@ -115,16 +84,11 @@ const NavLink = ({
 
 const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => {
   return (
-    <div
-      className="fixed top-0 left-0 w-full h-full z-5000 bg-gradient-to-tr from-red-900 via-pink-900 to-yellow-900
-
-
- p-8 flex flex-col justify-between shadow-2xl overflow-y-auto"
-    >
-      {/* Top Section: Logo + Close */}
+    <div className="fixed top-0 left-0 w-full h-full z-50 bg-gradient-to-tr from-red-900 via-pink-900 to-yellow-900 p-8 flex flex-col justify-between shadow-2xl overflow-y-auto">
+      {/* Top Section */}
       <div className="flex justify-between items-center mb-8">
         <h1 className="montserrat text-2xl font-bold text-yellow-400 drop-shadow-lg">
-          {company_name} Center
+          {company_name} {/* ✅ Removed "Center" */}
         </h1>
         <button
           onClick={() => setOpen(false)}
@@ -134,7 +98,7 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => {
         </button>
       </div>
 
-      {/* Navigation Links */}
+      {/* Navigation */}
       <ul className="flex flex-col gap-6 font-medium montserrat text-lg text-gray-100 mb-8">
         {["Home", "About", "Services", "Testimonials", "Contact"].map(
           (item) => (
@@ -151,10 +115,10 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => {
         )}
       </ul>
 
-      {/* Empty Space Section → Add Call / WhatsApp Buttons */}
+      {/* CTA Buttons */}
       <div className="flex flex-col gap-4 mb-8">
         <p className="text-gray-200 font-semibold text-center">
-          Need Immediate Help? Contact Us Now!
+          Need Guidance? Contact Us Now! {/* ✅ Fixed */}
         </p>
         <div className="flex justify-center gap-4">
           <a
@@ -174,32 +138,12 @@ const MobileMenu = ({ setOpen }: { setOpen: (open: boolean) => void }) => {
         </div>
       </div>
 
-      {/* Bottom Section: Company info */}
+      {/* ✅ Fixed Bottom Text */}
       <p className="open-sans text-gray-300 text-sm text-center">
-        <b className="text-yellow-400">{company_name} Center</b> - Trusted
-        astrology services since 1950. Horoscope readings, match-making, career
-        predictions, and spiritual remedies to guide you through life with
-        confidence.
+        <b className="text-yellow-400">{company_name}</b> — Trusted astrology
+        consultation since 1950. Guidance for love, marriage, career, and family
+        harmony.
       </p>
     </div>
   );
 };
-
-// const TextMarquee = () => (
-//   <div
-//     className="overflow-hidden
-//  bg-gradient-to-l from-green-300 via-blue-300 to-orange-300
-
-// "
-//   >
-//     <Marquee
-//       speed={50}
-//       className="whitespace-nowrap text-black  py-2 open-sans text-md md:text-base tracking-wide"
-//     >
-//       🌙 Facing issues like Love Breakup, Marriage Disputes, Relationship
-//       Conflicts, or wanting to Get Your Love Back? 🔮 Consult for Vashikaran
-//       solutions to attract your desired partner or resolve personal issues.
-//       Contact a trusted Astrologer today.
-//     </Marquee>
-//   </div>
-// );

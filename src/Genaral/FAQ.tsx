@@ -5,7 +5,7 @@ import { person_name, phone_number } from "./secrete";
 const faqs = [
   {
     question: `Can We Meet Astrologer ${person_name}?`,
-    answer: `Yes, personal meetings are available with prior appointment. 📲 Whatsapp: ${phone_number}`,
+    answer: `Yes, personal meetings are available with prior appointment. 📲 WhatsApp: ${phone_number}`,
   },
   {
     question: "Is Telephonic Consultation Available?",
@@ -17,18 +17,20 @@ const faqs = [
       "We provide Vastu, horoscope, career, marriage, health, and business guidance.",
   },
   {
+    // ✅ FIXED
     question: "What Kind Of Products Are Available?",
     answer:
-      "Astrological remedies, gemstones, yantras, and spiritual products are available.",
+      "Gemstones, astrology books, horoscope charts, and traditional Vedic consultation materials are available.",
   },
   {
     question: "Do We Avail Courses On Astrology?",
     answer: "Yes, astrology learning courses are offered for different levels.",
   },
   {
+    // ✅ FIXED
     question: "What Do We Teach In The Astrology Course?",
     answer:
-      "We cover horoscope reading, palmistry basics, and predictive astrology.",
+      "We cover horoscope reading, birth chart analysis, palmistry basics, and Vedic astrology fundamentals.",
   },
 ];
 
@@ -48,7 +50,7 @@ export default function FAQ() {
       <div className="relative max-w-5xl mx-auto">
         {/* Heading */}
         <h2 className="text-4xl md:text-6xl font-extrabold text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-red-400 to-yellow-300 drop-shadow-lg">
-          ❓ Frequently Asked Questions
+          Frequently Asked Questions
         </h2>
         <p className="text-center text-gray-300 mt-4 text-lg">
           Quick answers to help you understand our astrology services better.
