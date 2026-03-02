@@ -25,7 +25,7 @@ const Logo = () => (
         <p className="open-sans text-sm md:text-base text-gray-300 italic -mt-1">
           Since 1950
         </p>
-        <div className="text-white open-sans">
+        {/* <div className="text-white open-sans">
           <b>Contact Us</b>
           <div>
             03, Jyothirdevi, Chottanikkara, Bhagavathi Kaanda Street
@@ -34,7 +34,7 @@ const Logo = () => (
             <br />
             Phone: {phone_number} | WhatsApp: {whatsapp_number}
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
 
