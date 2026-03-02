@@ -1,6 +1,6 @@
-const phone_number = "7975180032";
+const phone_number = "91875 83929";
 const email = "";
-const whatsapp_number = "7975180032";
+const whatsapp_number = "91875 83929";
 const company_name = "Devi Sri Prasad Astro";
 const person_name = "Devi Sri Prasad Astro";
 const address = "";
